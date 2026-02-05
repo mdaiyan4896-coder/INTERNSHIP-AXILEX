@@ -1,0 +1,5 @@
+print("Name:Mohammed Aiyan Bijapur")
+print("USN: 2JH25CS068")
+print("Branch: Computer Science Engineering")
+print("College: Jain College of Engineering and Technology")
+print("City: Hubballi")
