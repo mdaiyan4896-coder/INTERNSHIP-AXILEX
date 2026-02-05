@@ -1,0 +1,5 @@
+print("BASIC---ARITHMETIC---PROBLEMS")
+print("Addition of 10 and 5 =", 10 + 5)
+print("Subtraction of 10 and 5 =", 10 - 5)
+print("Multiplication of 10 and 5 =", 10 * 5)
+print("Division of 10 and 5 =", 10 / 5)
