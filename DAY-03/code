@@ -1,0 +1,6 @@
+print("PROGRAM OD DAY 03 TO CHECK ODD OR EVEN NUMBER")
+n = int(input("Enter a number: "))
+if n % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
