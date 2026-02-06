@@ -1,0 +1,27 @@
+Day 3 – Conditional Statements
+Tasks
+Program to check even or odd number  
+Program to find the largest of three numbers  
+Program to check pass or fail based on marks  
+Expected Outcomes
+Apply conditional statements to solve basic logical problems.  
+Correctly evaluate conditions using if-elif-else.  
+Actual Outcomes
+Successfully implemented condition-based programs.  
+Verified outputs using multiple test inputs.
+Task-wis
+Task 1: Even or Odd  
+Expected Outcome:  
+To take a number as input and correctly identify whether it is even or odd using conditional statements.  
+Actual Outcome:  
+The program successfully checks the entered number and displays whether it is even or odd for different test inputs.
+Task 2: Largest of Three Numbers  
+Expected Outcome:  
+To compare three input numbers and determine the largest number using if-elif-else conditions.  
+Actual Outcome:  
+The program correctly compares the three numbers and prints the largest value for multiple input cases.
+Task 3: Pass/Fail  
+Expected Outcome:  
+To accept marks as input and display pass or fail based on the given condition using conditional statements.  
+Actual Outcome:  
+The program accurately evaluates the marks and displays pass or fail results according to the defined criteria.
