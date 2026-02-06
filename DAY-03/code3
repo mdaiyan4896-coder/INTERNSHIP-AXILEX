@@ -1,0 +1,6 @@
+print("PROGRAM DAY 03 TO CHECK PASS OR FAIL BASED ON MARKS")
+marks = int(input("Enter your marks:\n "))
+if marks >= 40:
+    print("Result: Pass")
+else:
+    print("Result: Fail")
