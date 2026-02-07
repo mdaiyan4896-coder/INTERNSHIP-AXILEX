@@ -1,0 +1,17 @@
+Print Numbers from 1 to N
+Expected Outcome:
+To be able to print numbers from 1 up to the given number using a loop.
+Actual Outcome:
+The program printed all numbers from 1 to the entered value correctly. I tested it with different inputs and the output was as expected.
+
+Multiplication Table
+Expected Outcome:
+To display the multiplication table of a given number using a loop.
+Actual Outcome:
+The program showed the full multiplication table from 1 to 10 for the number I entered. The results matched manual calculations.
+
+Star Pattern
+Expected Outcome:
+To print a simple star pattern using loops.
+Actual Outcome:
+The program printed the star pattern properly based on the number of rows given. I checked with different row values and it worked fine.
