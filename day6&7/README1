@@ -1,0 +1,83 @@
+Personal Details & Arithmetic (Day 2)
+Expected Outcome:
+To print my details and do basic calculations using Python.
+
+Actual Outcome:
+My details printed properly and all the calculations gave correct answers.
+
+Even or Odd (Day 3)
+Expected Outcome:
+To check whether a number is even or odd.
+
+Actual Outcome:
+The program showed even or odd correctly for the numbers I tested.
+
+Largest of Three Numbers (Day 3)
+Expected Outcome:
+To find the biggest number among three numbers.
+
+Actual Outcome:
+The program picked the correct largest number each time I tried different values.
+
+Pass or Fail (Day 3)
+Expected Outcome:
+To check pass or fail based on marks.
+
+Actual Outcome:
+The program showed pass for marks above 40 and fail for marks below 40.
+
+Print 1 to N (Day 4)
+Expected Outcome:
+To print numbers from 1 to the given number using a loop.
+
+Actual Outcome:
+The numbers printed correctly from 1 to the value I entered.
+
+Multiplication Table (Day 4)
+Expected Outcome:
+To print the multiplication table of a number.
+
+Actual Outcome:
+The table printed correctly from 1 to 10 for the number I gave.
+
+Star Pattern (Day 4)
+Expected Outcome:
+To print a simple star pattern.
+
+Actual Outcome:
+The star pattern came properly based on how many rows I entered.
+
+Prime Number Check (Day 6)
+Expected Outcome:
+To check whether a number is prime or not.
+
+Actual Outcome:
+The program correctly told whether the number was prime or not for my inputs.
+
+Factorial (Day 6)
+Expected Outcome:
+To find the factorial of a number.
+
+Actual Outcome:
+The factorial result was correct for the numbers I tested.
+
+Palindrome Number (Day 6)
+Expected Outcome:
+To check whether a number is a palindrome.
+
+Actual Outcome:
+The program correctly showed palindrome or not palindrome for different numbers.
+
+Count Digits (Day 6)
+Expected Outcome:
+To count how many digits are in a number.
+
+Actual Outcome:
+The digit count was correct, even when I entered 0.
+
+Armstrong Number (Day 6)
+Expected Outcome:
+To check whether a number is an Armstrong number.
+
+Actual Outcome:
+The program correctly identified Armstrong and non-Armstrong numbers.
