@@ -1,0 +1,39 @@
+Task 1: Prime Number Check
+
+Expected Outcome:
+To check whether the entered number is a prime number or not using conditions and a loop.
+
+Actual Outcome:
+The program correctly identified prime and non-prime numbers when tested with different inputs.
+
+Task 2: Factorial
+
+Expected Outcome:
+To calculate the factorial of a given number using a loop.
+
+Actual Outcome:
+The program calculated the factorial correctly for different input values.
+
+Task 3: Palindrome Number
+
+Expected Outcome:
+To check whether a given number is a palindrome or not.
+
+Actual Outcome:
+The program correctly detected palindrome and non-palindrome numbers during testing.
+
+Task 4: Count Digits
+
+Expected Outcome:
+To find the total number of digits in a given number.
+
+Actual Outcome:
+The program counted the digits accurately, including the case when the input was zero.
+
+Task 5: Armstrong Number
+
+Expected Outcome:
+To check whether the given number is an Armstrong number or not.
+
+Actual Outcome:
+The program correctly verified Armstrong and non-Armstrong numbers with multiple test cases.
