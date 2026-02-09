@@ -1,0 +1,128 @@
+print("Name:MOHAMMED AIYAN BIJAPUR")
+print("USN: 2JH25CS068")
+print("Branch: Computer Science Engineering")
+print("College: Jain College of Engineering and Technology")
+print("City: Hubballi")
+
+
+#BASIC ARITHMETIC OPERATIONS
+print("Addition of 10 and 5 =", 10 + 5)
+print("Subtraction of 10 and 5 =", 10 - 5)
+print("Multiplication of 10 and 5 =", 10 * 5)
+print("Division of 10 and 5 =", 10 / 5)
+
+print("PROGRAM OD DAY 03 TO CHECK ODD OR EVEN NUMBER")
+n = int(input("Enter a number: "))
+if n % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+
+
+print("PROGRAM DAY 03 TO FIND LARGEST OF THREE NUMBERS")
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+if a >= b and a >= c:
+    print("Largest number is:", a)
+elif b >= a and b >= c:
+    print("Largest number is:", b)
+else:
+    print("Largest number is:", c)
+
+
+print("PROGRAM DAY 03 TO CHECK PASS OR FAIL BASED ON MARKS")
+marks = int(input("Enter your marks:\n "))
+if marks >= 40:
+    print("Result: Pass")
+else:
+    print("Result: Fail")
+
+n = int(input("Enter a number: "))
+print("Numbers from 1 to", n, ":")
+
+for i in range(1, n + 1):
+    print(i)
+
+print("PROGRAM DONE USING FOR LOOP")
+
+#---------------------------------------------------------------------------------------
+n = int(input("Enter a number: "))
+print("Multiplication Table of", n)
+for i in range(1, 11):
+    print(n, "x", i, "=", n * i)
+
+#------------------------------
+n = int(input("Enter number of rows: "))
+for i in range(1, n + 1):
+    print("*" * i)
+print("PROGRAM DONE USING FOR LOOP")
+
+
+ # 1) Prime Number Check
+n = int(input("Enter a number: "))
+if n <= 1:
+    print("Not a prime number")
+else:
+    is_prime = True
+    for i in range(2, n):
+        if n % i == 0:
+            is_prime = False
+            break
+    if is_prime:
+        print("Prime number")
+    else:
+        print("Not a prime number")
+print("PROGRAM DONE")
+
+
+# 2) Factorial
+n = int(input("Enter a number: "))
+fact = 1
+for i in range(1, n + 1):
+    fact = fact * i
+print("Factorial of", n, "is:", fact)
+print("PROGRAM DONE")
+
+
+# 3) Palindrome Number
+n = int(input("Enter a number: "))
+temp = n
+rev = 0
+while n > 0:
+    rev = rev * 10 + (n % 10)
+    n = n // 10
+if rev == temp:
+    print("Palindrome number")
+else:
+    print("Not a palindrome number")
+print("PROGRAM DONE")
+
+
+# 4) Count Digits
+n = int(input("Enter a number: "))
+count = 0
+if n == 0:
+    count = 1
+else:
+    while n > 0:
+        n = n // 10
+        count += 1
+print("Number of digits:", count)
+print("PROGRAM DONE")
+
+
+# 5) Armstrong Number
+n = int(input("Enter a number: "))
+temp = n
+digits = len(str(n))
+total = 0
+while n > 0:
+    digit = n % 10
+    total = total + (digit ** digits)
+    n = n // 10
+if total == temp:
+    print("Armstrong number")
+else:
+    print("Not an Armstrong number")
+print("PROGRAM DONE")
