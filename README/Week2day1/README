@@ -1,0 +1,12 @@
+Week 2 – Day 1: Lists & Tuples
+
+Tasks
+Created and displayed a list
+Found largest and smallest number in a list
+Sorted list in ascending and descending order
+Converted list to tuple
+
+Expected Outcome
+To understand how lists and tuples work in Python and perform basic operations on them.
+Actual Outcome
+All list operations worked as expected. I was able to find max and min values, sort the list, and convert it into a tuple without any issues.
