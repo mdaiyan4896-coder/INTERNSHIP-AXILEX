@@ -1,0 +1,20 @@
+Week 2–Day 6: Mini Practice Programs
+
+Tasks Completed
+Created a simple student management system
+Built a calculator using functions
+Implemented a basic menu-driven program
+Stored records in a file
+Used dictionary to store and display data
+
+Expected Outcome
+To apply Python concepts learned during the week in small practical programs.
+
+Actual Outcome
+All programs ran properly. I was able to store and view data, perform calculations, use menu options, save data in a file, and work with dictionaries.
+
+Files Included
+week2day6.py
+
+Note
+The program was executed in VS Code and screenshots of outputs were uploaded.
