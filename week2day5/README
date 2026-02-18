@@ -1,0 +1,20 @@
+Week 2–Day 5:Exception Handling
+
+Tasks Completed
+Used try-except to handle invalid input
+Handled division by zero error
+Handled file not found error
+Created and used a custom exception
+
+Expected Outcome
+To understand how errors can be handled in Python using try and except blocks.
+
+Actual Outcome
+The program handled invalid inputs, division by zero, and file errors properly.  
+The custom exception also worked as expected.
+
+Files Included
+week2day5.py
+
+Note
+The program was run in VS Code and screenshots of outputs were uploaded.
