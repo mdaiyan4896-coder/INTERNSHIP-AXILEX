@@ -1,0 +1,76 @@
+#Student Management System (simple)
+students = []
+
+def add_student():
+    name = input("Enter student name: ")
+    usn = input("Enter USN: ")
+    students.append({"name": name, "usn": usn})
+    print("Student added successfully.")
+
+def view_students():
+    if not students:
+        print("No students available.")
+    else:
+        for s in students:
+            print(s["name"], "-", s["usn"])
+
+print("\n--- Student Management System ---")
+add_student()
+view_students()
+
+
+#Calculator using functions
+def add(a, b):
+    return a + b
+
+def sub(a, b):
+    return a - b
+
+def mul(a, b):
+    return a * b
+
+def div(a, b):
+    if b == 0:
+        return "Cannot divide by zero"
+    return a / b
+print("\n--- Calculator ---")
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print("Addition:", add(a, b))
+print("Subtraction:", sub(a, b))
+print("Multiplication:", mul(a, b))
+print("Division:", div(a, b))
+
+
+
+
+#Menu-driven program
+print("\n--- Menu Driven Program ---")
+print("1. Say Hello")
+print("2. Show Name")
+print("3. Exit")
+choice = int(input("Enter your choice: "))
+if choice == 1:
+    print("Hello!")
+elif choice == 2:
+    print("My name is Aiyan")
+else:
+    print("Exiting program")
+
+
+#File-based record system
+file = open("records.txt", "a")
+name = input("\nEnter name to store in file: ")
+file.write(name + "\n")
+file.close()
+print("Record saved to file.")
+
+
+#Dictionary application
+student = {}
+name = input("\nEnter student name: ")
+marks = input("Enter marks: ")
+student[name] = marks
+print("Dictionary Data:")
+print(student)
+
