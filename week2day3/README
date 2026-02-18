@@ -1,0 +1,24 @@
+Week 2–Day 3: Strings & Operations
+
+Tasks Completed
+Reversed a given string
+Checked whether a string is palindrome
+Counted vowels and consonants in a string
+Found character frequency in a string
+Performed basic string slicing operations
+
+Expected Outcome
+To understand how string operations work in Python and practice different ways of handling strings.
+
+Actual Outcome
+All string operations worked properly. I was able to reverse strings, check palindromes, count vowels and consonants, find character frequency, and use slicing without any issues.
+
+Files Included
+reverse_string.py  
+palindrome_string.py  
+vowel_consonant_count.py  
+char_frequency.py  
+string_slicing.py  
+
+Note
+All programs were executed in VS Code and screenshots of outputs were uploaded.
