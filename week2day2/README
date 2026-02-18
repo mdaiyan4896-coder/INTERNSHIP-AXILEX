@@ -1,0 +1,22 @@
+Week 2-Day 2: Dictionaries & Sets
+
+Tasks Completed
+1.Created a dictionary to store student details.
+2.Added new values, updated existing values, and deleted elements from the dictionary.
+3.Counted the frequency of words in a given sentence using a dictionary.
+4.Performed basic set operations like union, intersection, and difference.
+
+Expected Outcome
+To understand how dictionaries and sets work in Python and learn how to store, update, and process data using them.
+
+Actual Outcome
+All the programs worked properly. I was able to create and modify dictionaries, count word frequency from a sentence, and perform set operations without any issues.
+
+Files Included
+.student_dict.py  
+.dict_operations.py  
+.word_frequency.py  
+.set_operations.py  
+
+Note
+Each program was executed in VS Code and output screenshots were uploaded for reference.
