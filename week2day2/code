@@ -1,0 +1,57 @@
+#Create dictionary of student details
+student = {
+    "name": "Mohammed Aiyan",
+    "usn": "2JH25CS068",
+    "branch": "CSE",
+    "college": "Jain College of Engineering and Technology",
+    "city": "Hubballi"
+}
+print("Student Details:")
+print(student)
+
+
+
+#Add, update, and delete elements
+student = {
+    "name": "Mohammed Aiyan",
+    "usn": "2JH25CS068",
+    "branch": "CSE"
+}
+print("Original Dictionary:", student)
+# Add
+student["city"] = "Hubballi"
+print("After Adding city:", student)
+# Update
+student["branch"] = "Computer Science Engineering"
+print("After Updating branch:", student)
+# Delete
+del student["usn"]
+print("After Deleting usn:", student)
+
+
+
+
+#Count word frequency using dictionary
+text = input("Enter a sentence: ")
+words = text.split()
+freq = {}
+for word in words:
+    if word in freq:
+        freq[word] += 1
+    else:
+        freq[word] = 1
+print("Word Frequency:")
+print(freq)
+
+
+
+
+#Perform set operations
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+print("Set 1:", set1)
+print("Set 2:", set2)
+print("Union:", set1 | set2)
+print("Intersection:", set1 & set2)
+print("Difference (Set1 - Set2):", set1 - set2)
+
