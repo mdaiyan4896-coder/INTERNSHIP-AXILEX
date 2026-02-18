@@ -1,0 +1,18 @@
+Week 3 – Day 2: Forms & Input Elements
+
+Tasks Completed
+Created a registration form
+Added input fields for name, email, phone, password, and gender
+Used proper labels and input types
+
+Expected Outcome
+To understand how forms and input elements work in HTML.
+
+Actual Outcome
+The form was created successfully. All input fields worked properly and the form displayed correctly in the browser.
+
+Files Included
+form.html
+
+Note
+Screenshot of the form output is uploaded.
