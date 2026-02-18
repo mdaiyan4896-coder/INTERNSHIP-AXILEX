@@ -1,0 +1,20 @@
+Week 2–Day 4: File Handling
+
+Tasks Completed
+Created a new file and wrote data into it
+Read data from the file
+Appended new data to the same file
+Stored student records in a separate file
+
+Expected Outcome
+To learn how to create files, read data from files, and update file content using Python.
+
+Actual Outcome
+The file was created successfully and the content was written, read, and appended correctly.  
+Student details were also saved into a file without any issues.
+
+Files Included
+week2day4.py
+
+Note
+All programs were executed in VS Code and output screenshots were uploaded for reference.
