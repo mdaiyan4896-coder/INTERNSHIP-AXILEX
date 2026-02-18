@@ -1,0 +1,37 @@
+ #Create and write new file
+file = open("sample.txt", "w")
+file.write("Hello, this is my first file.\n")
+file.write("This file is created using Python.\n")
+file.close()
+print("File created and data written successfully.")
+
+
+#Read file data
+file = open("sample.txt", "r")
+data = file.read()
+file.close()
+print("File Content:")
+print(data)
+
+
+#Append data to file
+file = open("sample.txt", "a")
+file.write("This line is appended to the file.\n")
+file.close()
+print("Data appended successfully.")
+
+
+#Store student records in a file (safe input)
+file = open("students.txt", "w")
+while True:
+    try:
+        n = int(input("Enter number of students: "))
+        break
+    except ValueError:
+        print("Please enter a number only.")
+for i in range(n):
+    name = input("Enter student name: ")
+    usn = input("Enter USN: ")
+    file.write(name + " - " + usn + "\n")
+file.close()
+print("Student records saved to file.")
