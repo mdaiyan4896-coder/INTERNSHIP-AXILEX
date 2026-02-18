@@ -1,0 +1,50 @@
+#Basic try-except example
+try:
+    a = int(input("Enter a number: "))
+    print("You entered:", a)
+except ValueError:
+    print("Invalid input. Please enter a number.")
+
+
+
+#Handle division by zero
+try:
+    x = int(input("Enter first number: "))
+    y = int(input("Enter second number: "))
+    result = x / y
+    print("Result:", result)
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+except ValueError:
+    print("Please enter valid numbers.")
+
+
+
+
+#Handle file errors
+try:
+    file = open("notfound.txt", "r")
+    data = file.read()
+    file.close()
+    print("File Content:")
+    print(data)
+except FileNotFoundError:
+    print("File not found. Please check the file name.")
+
+
+
+
+#Custom exception example
+class AgeTooSmallError(Exception):
+    pass
+try:
+    age = int(input("Enter your age: "))
+    if age < 18:
+        raise AgeTooSmallError
+    else:
+        print("You are eligible.")
+except AgeTooSmallError:
+    print("Age is too small. You must be at least 18.")
+except ValueError:
+    print("Please enter a valid age.")
+
