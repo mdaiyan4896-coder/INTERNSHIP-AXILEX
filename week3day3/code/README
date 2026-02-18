@@ -1,0 +1,20 @@
+Week 3 – Day 3: CSS Basics
+
+Tasks Completed
+Applied background color to the page
+Used font styling
+Added border, margin, and padding to elements
+Styled a button with hover effect
+
+Expected Outcome
+To understand basic CSS properties and apply styles to HTML elements.
+
+Actual Outcome
+The styles were applied successfully. The background color, font style, box styling, and button design worked as expected in the browser.
+
+Files Included
+style.css
+demo.html
+
+Note
+Screenshot of the styled page is uploaded.
