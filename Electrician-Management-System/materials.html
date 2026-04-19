@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materials</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <h2>⚡ EMS</h2>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="electricians.html">Electricians</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="tasks.html">Tasks</a>
+        <a href="materials.html">Materials</a>
+        <a href="reports.html">Reports</a>
+        <a href="profile.html">Profile</a>
+    </div>
+
+    <!-- MAIN -->
+    <div class="main">
+
+        <!-- TOPBAR -->
+        <div class="topbar">
+            <h2>Material Management</h2>
+        </div>
+
+        <!-- TABLE -->
+        <table class="table">
+
+            <tr>
+                <th>ID</th>
+                <th>Material</th>
+                <th>Quantity</th>
+                <th>Status</th>
+            </tr>
+
+            <!-- ROW 1 -->
+            <tr>
+                <td>1</td>
+                <td>Copper Wire</td>
+                <td>50</td>
+                <td class="status-done">Available</td>
+            </tr>
+
+            <!-- ROW 2 -->
+            <tr>
+                <td>2</td>
+                <td>Switch Board</td>
+                <td>10</td>
+                <td class="status-pending">Low Stock</td>
+            </tr>
+
+            <!-- ROW 3 (FIXED HERE) -->
+            <tr>
+                <td>3</td>
+                <td>Circuit Breaker</td>
+                <td>0</td>
+                <td class="status-out">Out of Stock</td>
+            </tr>
+
+            <!-- EXTRA ROW (better UI) -->
+            <tr>
+                <td>4</td>
+                <td>Insulation Tape</td>
+                <td>25</td>
+                <td class="status-done">Available</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</body>
+
+</html>
